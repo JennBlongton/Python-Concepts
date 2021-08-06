@@ -1,0 +1,14 @@
+Continuous Integration:-
+SCM --> Build --> Unit Test --> Package --> Publish Artifact(JFrog Artifactory) --> Scan (SonarQube) --> Invoke Deploy JOb (ANsible using playbook)
+
+Key Goals of CI:-
+- Find and address bugs quicker.
+- Improve Software quality.
+- Reduce the time it takes to validate and release new software update.
+
+1) Source Code Management/Version Control (Bitbucket)
+    -Master branch is long-lived branch
+    -Anything in the Master Branch is buildable, testable, deployable.
+    -Feature and hotfix branch created directly from master.
+
+2)
