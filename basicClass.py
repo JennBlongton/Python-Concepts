@@ -6,8 +6,9 @@ class Vehicle:
 
 
 class Bus(Vehicle):
-    def __init__(self):
-        super().__init__()
+    def __init__(self, name, max_speed, mileage, price):
+        super().__init__(name, max_speed, mileage)
+        self.price = price
 
 v1 = Bus('Bus',250,15)
 print(
